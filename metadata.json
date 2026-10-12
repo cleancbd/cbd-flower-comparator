@@ -1,0 +1,6 @@
+{
+  "name": "CBD Flower Comparator",
+  "description": "Compare natural CBD flowers with infused and sprayed alternatives to understand effects, safety, and quality.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
