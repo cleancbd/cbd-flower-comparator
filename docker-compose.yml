@@ -9,6 +9,9 @@ services:
     ports:
       - "3300:3000"
     restart: unless-stopped
+    #volumes:
+    #  - ./index.html:/app/index.html
+    #  - ./search.html:/usr/share/nginx/html/search.html
     environment:
       - NODE_ENV=production
     healthcheck:
