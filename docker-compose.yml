@@ -7,7 +7,7 @@ services:
       target: runner
     container_name: cannabinoid_guide_app
     ports:
-      - "3000:3000"
+      - "3300:3000"
     restart: unless-stopped
     environment:
       - NODE_ENV=production
